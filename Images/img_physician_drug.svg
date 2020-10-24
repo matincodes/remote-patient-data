@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="33px" viewBox="0 0 31 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>ic_Drug</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="14.5152006" cy="14.2892313" rx="14.5152006" ry="14.2892313"></ellipse>
+        <ellipse id="path-3" cx="14.5152006" cy="14.2892313" rx="14.5152006" ry="14.2892313"></ellipse>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Physicians_V6" transform="translate(-657.000000, -1243.000000)">
+            <g id="Current-prescription-methods-could-be-improved." transform="translate(0.000000, 948.000000)">
+                <g id="Group-3">
+                    <g id="content" transform="translate(595.000000, 287.000000)">
+                        <g id="Group-6">
+                            <g id="Sub-Content">
+                                <g id="Group-Copy-3">
+                                    <g id="Group">
+                                        <g id="Group-10" transform="translate(56.000000, 0.000000)">
+                                            <g id="ic_Drug" transform="translate(0.000000, 4.000000)">
+                                                <rect id="Rectangle" x="0" y="1" width="40" height="40" rx="10"></rect>
+                                                <g id="Group-9-Copy">
+                                                    <g id="Path-29" transform="translate(20.146390, 22.465386) rotate(113.000000) translate(-20.146390, -22.465386) translate(5.146390, 7.965386)">
+                                                        <mask id="mask-2" fill="white">
+                                                            <use xlink:href="#path-1"></use>
+                                                        </mask>
+                                                        <use id="Mask" fill="#005DB3" xlink:href="#path-1"></use>
+                                                        <line x1="19.0667901" y1="25.4030779" x2="26.3405421" y2="25.4030779" stroke="#FFFFFF" stroke-width="0.959999981" mask="url(#mask-2)"></line>
+                                                        <line x1="20.6795902" y1="22.2276932" x2="27.9533421" y2="22.2276932" id="Path-29-Copy" stroke="#FFFFFF" stroke-width="0.959999981" mask="url(#mask-2)"></line>
+                                                    </g>
+                                                    <g id="Path-9" transform="translate(21.406732, 19.542429) rotate(113.000000) translate(-21.406732, -19.542429) translate(6.406732, 5.042429)">
+                                                        <mask id="mask-4" fill="white">
+                                                            <use xlink:href="#path-3"></use>
+                                                        </mask>
+                                                        <use id="Mask" fill="#44B0A3" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                                        <polygon fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-4)" transform="translate(14.648351, 14.547943) rotate(-6.000000) translate(-14.648351, -14.547943) " points="18.5874619 -0.330209965 9.10216445 28.3162545 10.7092391 29.4260959 20.1945366 0.77963146"></polygon>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

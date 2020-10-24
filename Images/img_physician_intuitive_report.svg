@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Ic_Intuitive report</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Physicians_V6" transform="translate(-640.000000, -1884.000000)">
+            <g id="From-start-to-finish,-the-process-is-painless-and-intuitive." transform="translate(135.000000, 1646.000000)">
+                <g id="Card-Copy" transform="translate(400.000000, 178.000000)">
+                    <g id="Group-8">
+                        <g id="Ic_Intuitive-report" transform="translate(105.000000, 60.000000)">
+                            <circle id="Oval" fill="#FFFFFF" opacity="0.100000001" cx="80" cy="80" r="80"></circle>
+                            <g id="148985" transform="translate(38.000000, 37.000000)" fill-rule="nonzero">
+                                <path d="M7.5075,87 L7.5075,87 C3.3825,87 0.0075,83.625 0.0075,79.5 L0.0075,45 L15.0075,45 L15.0075,79.5 C15.0075,83.625 11.6325,87 7.5075,87 Z" id="Path" fill="#0084FF"></path>
+                                <rect id="Rectangle" fill="#FB9466" x="15.0075" y="0" width="68.985" height="16.5"></rect>
+                                <path d="M15.0075,52.5 L15.0075,63 L15.0075,79.5 C15.0075,83.625 11.6325,87 7.5075,87 L15.0075,87 L24.0075,87 L76.5075,87 C80.6415,87 83.9925,83.649 83.9925,79.515 L83.9925,19.5 L15.0075,19.5 L15.0075,52.5 Z" id="Path" fill="#29DBC7"></path>
+                                <rect id="Rectangle" fill="#F4F3ED" x="15.0075" y="16.5" width="68.985" height="3"></rect>
+                                <rect id="Rectangle" fill="#FFFFFF" x="24.0075" y="24" width="18" height="18"></rect>
+                                <path d="M75.0075,28.5 L51.0075,28.5 C50.178,28.5 49.5075,27.606 49.5075,26.5 C49.5075,25.394 50.178,24.5 51.0075,24.5 L75.0075,24.5 C75.837,24.5 76.5075,25.394 76.5075,26.5 C76.5075,27.606 75.837,28.5 75.0075,28.5 Z" id="Path" fill="#0084FF"></path>
+                                <path d="M75.0075,40.5 L51.0075,40.5 C50.178,40.5 49.5075,39.606 49.5075,38.5 C49.5075,37.394 50.178,36.5 51.0075,36.5 L75.0075,36.5 C75.837,36.5 76.5075,37.394 76.5075,38.5 C76.5075,39.606 75.837,40.5 75.0075,40.5 Z" id="Path" fill="#0084FF"></path>
+                                <path d="M75.0075,52.5 L25.5075,52.5 C24.678,52.5 24.0075,51.606 24.0075,50.5 C24.0075,49.394 24.678,48.5 25.5075,48.5 L75.0075,48.5 C75.837,48.5 76.5075,49.394 76.5075,50.5 C76.5075,51.606 75.837,52.5 75.0075,52.5 Z" id="Path" fill="#0084FF"></path>
+                                <path d="M48.0075,78.5 L25.5075,78.5 C24.678,78.5 24.0075,77.606 24.0075,76.5 C24.0075,75.394 24.678,74.5 25.5075,74.5 L48.0075,74.5 C48.837,74.5 49.5075,75.394 49.5075,76.5 C49.5075,77.606 48.837,78.5 48.0075,78.5 Z" id="Path" fill="#0084FF"></path>
+                                <path d="M48.0075,66.5 L25.5075,66.5 C24.678,66.5 24.0075,65.606 24.0075,64.5 C24.0075,63.394 24.678,62.5 25.5075,62.5 L48.0075,62.5 C48.837,62.5 49.5075,63.394 49.5075,64.5 C49.5075,65.606 48.837,66.5 48.0075,66.5 Z" id="Path-Copy" fill="#0084FF"></path>
+                                <rect id="Rectangle" fill="#FFFFFF" x="57.0075" y="60" width="18" height="18"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

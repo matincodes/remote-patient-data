@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>RPD Dashboard</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="nav__bar"> 
+                <li class="nav__item">
+                    <p class="nav__link">
+                        <i id="bar" class="fas fa-bars"></i>
+					</p>
+                </li>
+                <li class="nav__item">
+                    <p  class="nav__link">
+                        Remote Data Patient
+					</p>
+                </li>
+			</ul>
+			
+            <ul class="nav__bar"> 
+                <li class="nav__item">
+                    <p class="nav__link">
+                        <i  id='bell' class="fas fa-bell"></i>
+					</p>
+					<ul id="notification-menu" class="dropdown-menu notification-menu">
+						<div class="dropdown-menu-header">
+							<span>
+								Notifications
+							</span>
+						</div>
+						<div class="dropdown-menu-content">
+							<li>
+								<p class="content">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+								</p>
+							</li>
+                    </ul> 
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navbar -->
+    <!-- Sidebar -->
+    <section class="sidebar">
+        <ul class="sidebar-nav">
+			<li class="sidebar-nav-item active" data-tab-target="#main">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-eye"></i>
+					</div>
+					<span>
+						Overview
+					</span>
+				</a>
+			</li>
+			<li class="sidebar-nav-item" data-tab-target="#bio">
+				<a href="#" class="sidebar-nav-link ">
+					<div>
+						<i class="fas fa-database"></i>
+					</div>
+					<span>Biodata</span>
+				</a>
+            </li>
+            <li  class="sidebar-nav-item" data-tab-target="#history">
+				<a href="#" class="sidebar-nav-link">
+					<div>	
+						<i class="fas fa-file-medical-alt"></i>
+					</div>
+					<span>Medical History</span>
+				</a>
+			</li>
+			<li  class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-spinner"></i>
+					</div>
+					<span>Processing</span>
+				</a>
+			</li>
+			<li  class="sidebar-nav-item">
+				<a href="#" class="sidebar-nav-link">
+					<div>
+						<i class="fas fa-check-circle"></i>
+					</div>
+					<span>More Info</span>
+				</a>
+			</li>
+		</ul>
+    </section>
+    <!-- End Sidebar -->
+    <!-- Main Content -->
+    <section class="container" id="main" data-tab-content>
+        <div class="container__row">
+			<div class="container__col">
+				<div class="counter">
+					<div>
+						<h3>Heart Rate</h3>
+						<p>In the norm</p>
+					</div>
+					<p><span>0</span>Beats per Min</p>
+				</div>
+				<div class="spark" id="spark1"></div>
+			</div> 
+			<div class="container__col">
+				<div class="counter">
+					<div>
+						<h3>Blood Pressue</h3>
+						<p>In the norm</p>
+					</div>
+					<p><span>0/0</span>mm/Hg</p>
+				</div>
+				<div class="spark" id="spark2"></div>
+			</div>
+			<div class="container__col">
+				<div class="counter">
+					<div>
+						<h3>Glucose</h3>
+						<p>In the norm</p>
+					</div>
+					<p><span>0</span>mg/dl</p>
+				</div>
+				<div class="spark" id="spark3"></div>
+			</div>
+        </div>      
+    </section>
+	<!-- End Main Content -->
+
+	<section id="bio" data-tab-content>
+
+	</section>
+
+	<section id="history" data-tab-content>
+		<table>
+			<thead>
+			  <tr>
+				<th>Illness/Diagnosis</th>
+				<th>Treatment/Medication</th>
+				<th>Doctor</th>
+				<th>Date</th>
+			  </tr>
+			</thead>
+			<tbody class="mytable">
+			</tbody>
+		  </table>
+	</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="Js/script.js"></script>
+</body>
+</html>
+

@@ -35,7 +35,10 @@ http.createServer(function (req, res) {
                 res.end(); 
             } 
         }); 
-    } 
+    }
+}).listen(process.env.PORT || 3000, function () { 
+    console.log("SERVER STARTED PORT: 3000"); 
+}); 
 
 app.use(morgan('short'));
 app.use(express.static(path.join(__dirname, '/views/public')));

@@ -9,6 +9,34 @@ const mongoose = require('mongoose');
 
 const app = express();
 
+var http = require('http'); 
+var fs = require('fs'); // to get data from html file 
+  
+http.createServer(function (req, res) { 
+    res.writeHead(200, { 'Content-Type': 'text/html' }); 
+  
+    // req.url stores the path in the url 
+    var url = req.url; 
+    if (url === "/") { 
+// fs.readFile looks for the HTML file 
+// the first parameter is the path to the HTML page 
+// the second is the call back function 
+// if no file is found the function gives an error 
+// if the file is successfully found, the content of the file are contained in pgres 
+        fs.readFile("index.html", function (err, pgres) { 
+            if (err) 
+                res.write("HEAD.HTML NOT FOUND"); 
+            else { 
+                // The following 3 lines 
+                // are reponsible for sending the html file 
+                // and ends the response process 
+                res.writeHead(200, { 'Content-Type': 'text/html' }); 
+                res.write(pgres); 
+                res.end(); 
+            } 
+        }); 
+    } 
+
 app.use(morgan('short'));
 app.use(express.static(path.join(__dirname, '/views/public')));
 app.use('/css', express.static(path.join(__dirname, '/node_modules/bootstrap/dist/css')));

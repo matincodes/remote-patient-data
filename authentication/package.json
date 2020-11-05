@@ -1,0 +1,45 @@
+{
+    "name": "health",
+    "version": "1.0.0",
+    "description": "Node.js + MongoDB: JWT Authentication & Authorisation",
+    "main": "app.js",
+    "scripts": {
+      "devStart": "nodemon app.js"
+    },
+    "keywords": [
+      "node.js",
+      "express",
+      "jwt",
+      "authentication",
+      "mongodb"
+    ],
+    "author": "Alchemist",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "connect-flash": "^0.1.1",
+      "cors": "^2.8.5",
+      "ejs": "^3.1.5",
+      "env-cmd": "^10.1.0",
+      "express": "^4.17.1",
+      "express-ejs-layouts": "^2.5.0",
+      "express-flash": "0.0.2",
+      "express-session": "^1.17.1",
+      "jade": "^1.11.0",
+      "jsonwebtoken": "^8.5.1",
+      "mocha": "^8.2.0",
+      "mongodb": "^3.6.2",
+      "mongoose": "^5.10.11",
+      "passport": "^0.4.1",
+      "passport-local": "^1.0.0",
+      "passport-local-mongoose": "^6.0.1",
+      "pug": "^3.0.0",
+      "validator": "^13.1.17"
+    },
+    "devDependencies": {
+      "dotenv": "^8.2.0",
+      "nodemon": "^2.0.6"
+    }
+  }
+  

@@ -9,10 +9,10 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-var http = require('http'); 
-var fs = require('fs'); // to get data from html file 
+const http = require('http'); 
+const fs = require('fs'); // to get data from html file 
   
-http.createServer(function (req, res) { 
+const server = http.createServer(function (req, res) { 
     res.writeHead(200, { 'Content-Type': 'text/html' }); 
   
     // req.url stores the path in the url 
@@ -36,9 +36,7 @@ http.createServer(function (req, res) {
             } 
         }); 
     }
-}).listen(process.env.PORT || 3000, function () { 
-    console.log("SERVER STARTED PORT: 3000"); 
-}); 
+}) 
 
 app.use(morgan('short'));
 app.use(express.static(path.join(__dirname, '/views/public')));
@@ -132,4 +130,7 @@ app.use((req, res) => {
 
 app.listen(port, () => {
     debug(`app listening on port: ${chalk.greenBright(port)}`);
+});
+server.listen(port, () => { 
+    console.log("SERVER STARTED PORT: 3000"); 
 });
